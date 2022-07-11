@@ -1,0 +1,119 @@
+*{padding: 0; margin: 0;box-sizing: border-box;}
+
+body{
+    height: 100vh;
+    width:100%;
+}
+#logo{
+    width:80px;
+            height:80px;
+            border:2px solid whitesmoke;
+background-color: crimson;
+            display:flex;
+            justify-content: center;
+            color:white;
+            font-weight: bold;
+            padding: 10px;
+            margin: 20px;
+            text-align: centre;
+            font-size: 40px;
+}
+ 
+.btn{
+    height:50px;
+    width:50px;
+    color:red;
+    display:inline block;
+
+}
+    
+  ul{
+    list-style: none ;
+    display: flex;
+    justify-content: left;
+   
+}
+ ul li a{
+    text-transform:capitalize ;
+display: flex;
+text-decoration: none;
+width:100%;
+justify-content: space-evenly;
+text-decoration: none;
+margin:40px;
+font-weight: bold;
+ }
+
+
+ 
+.btn{
+    border:2px solid white;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin:70px;
+
+}
+.box{
+    position: relative;
+    height:600px;
+    width:100%;
+    padding-top:100px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    position: absolute;
+    height:500px;
+    width:50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.gr{
+    color: grey;
+    font-weight: 60px;
+    margin-top: 55px;
+    margin:0px;
+}
+txt{
+    border: 2px solid black;
+    background-color: aqua;
+}
+span{
+    
+    color: tomato;
+    margin-left:0px;
+}
+.footer{
+    display:flex;
+    align-items: centre;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bolder;
+    height:40px;
+    width:100vw;
+    color: black;
+    margin:20px;
+}
+.hedi{
+   width:70%;
+   font-weight: bold;
+   font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left:20px;
+}
+.image{
+    width:50%;
+    height:500px;
+    display:flex;
+    justify-content: centre;
+}
+.container{
+display: flex;
+justify-items:right;
+}
